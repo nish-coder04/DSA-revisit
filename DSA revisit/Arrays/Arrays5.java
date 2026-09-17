@@ -1,3 +1,4 @@
+
 //Missing elements from an array with duplicates
 /*import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class lec31 {
 
 import java.util.HashSet;
 
-public class lec31 {
+public class Arrays5 {
     static int findMissing(int[] arr, int n) {
         HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < n; i++) {
@@ -41,14 +42,14 @@ public class lec31 {
             if (set.contains(i)) {
                 continue;
             } else {
-                return i;
+                System.out.println(i);
             }
         }
         return -1;
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 2, 3, 5, 6 };
+        int[] arr = { 1, 2, 2, 3, 3, 6 };
         int n = arr.length;
         int missing = findMissing(arr, n);
         if (missing != -1) {
