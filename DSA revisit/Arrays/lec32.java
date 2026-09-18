@@ -1,5 +1,5 @@
 //Maximum sum contiguous sub array (Kadane's algo)
-public class lec32 {
+/*public class lec32 {
     static void maxSubArray(int arr[]) {
         int maxSum = Integer.MIN_VALUE;
         int sum = 0;
@@ -20,4 +20,4 @@ public class lec32 {
         int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
         maxSubArray(arr);
     }
-}
+}*/
