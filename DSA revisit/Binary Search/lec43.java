@@ -29,12 +29,12 @@ public class lec43 {
             if (arr[i] - arr[stalls] >= mid) {
                 cows++;
                 stalls = i;
+                if (cows >= k) {
+                    isValid = true;
+                }
             } else {
                 continue;
             }
-        }
-        if (cows >= k) {
-            isValid = true;
         }
         return isValid;
     }
