@@ -1,4 +1,4 @@
-//Coin change 2
+//Coin change 2(how many ways)
 public class lec61 {
     static int coinChange(int[] coins, int amount) {
         int i = 0;
